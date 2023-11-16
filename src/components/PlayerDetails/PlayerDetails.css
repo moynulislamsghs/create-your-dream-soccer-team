@@ -1,0 +1,58 @@
+.player-details-main {
+    width: 25%;
+    height: 500px;
+    border: 1px solid wheat;
+    float: left;
+    margin: 25px 10px;
+    border-radius: 8px;
+    
+    background-color: #fff;
+}
+
+.player-details {
+    /* display: block; */
+}
+
+.player-details img {
+    height: 400px;
+    width: 100%;
+}
+
+.popup{
+    width: 700px;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 8px;
+    text-align: center;
+    padding: 0px 10px 20px;
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 1s, top 1s;
+}
+
+.popup img {
+    width: 500px;
+    height: 500px;
+}
+
+.popup .popup-player-info h4{
+    text-align: left;
+    font-weight: normal;
+}
+
+#alertHeading{
+    font-size: xx-large;
+}
+
+.popup-close-btn {
+    font-weight: bold;
+    border-width: 2px;
+}
+
+.open-popup{
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+}
