@@ -14,11 +14,10 @@ const Header = () => {
                 <div className='header-menu-main'>
                     <div className='header-menu'>
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Player</a></li>
-                            <li><a href="">Pricing</a></li>
-                            <li><a href="">Cart</a></li>
-                            <li><a href="">About</a></li>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/players">Players</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/cart">Cart</a></li>
                         </ul>
                     </div>
                 </div>

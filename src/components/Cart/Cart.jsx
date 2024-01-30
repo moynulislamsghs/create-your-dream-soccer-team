@@ -17,7 +17,7 @@ const Cart = (props) => {
             <h4>Total Player Added: {cart.length}</h4>
             <h4>Total Player Cost: {totalCost}M</h4>
             <div className="d-grid gap-2" style={{marginTop: "30px"}} >
-                <Button variant="primary" size="lg">
+                <Button variant="primary" size="lg" href='/cart'>
                     View Added Player
                 </Button>
             </div>

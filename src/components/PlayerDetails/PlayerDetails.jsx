@@ -2,7 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
-import './PlayerDetails.css'
+import './PlayerDetails.css';
 
 const PlayerDetails = (props) => {
     const {id, gender, full_name, last_name, img, email, market_value, nationality, position, price_value} = props.player;
