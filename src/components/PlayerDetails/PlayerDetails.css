@@ -1,16 +1,16 @@
 .player-details-main {
-    width: 25%;
+    width: 31%;
     height: 500px;
     border: 1px solid wheat;
     float: left;
     margin: 25px 10px;
     border-radius: 8px;
-    
+    text-align: center;
     background-color: #fff;
 }
 
 .player-details {
-    /* display: block; */
+    display: block;
 }
 
 .player-details img {

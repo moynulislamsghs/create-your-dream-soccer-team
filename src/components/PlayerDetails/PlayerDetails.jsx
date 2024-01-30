@@ -6,7 +6,6 @@ import './PlayerDetails.css'
 
 const PlayerDetails = (props) => {
     const {id, gender, full_name, last_name, img, email, market_value, nationality, position, price_value} = props.player;
-    console.log(props);
     const [show, setShow] = useState(false);
 
     return (
@@ -15,7 +14,7 @@ const PlayerDetails = (props) => {
                 <img src={img} alt="" />
                 <h3>{last_name}</h3>
                 <Button variant="outline-info" onClick={() => setShow(true)}>More Info</Button>{' '}
-                <Button variant="outline-success">Add Player</Button>{' '}
+                <Button variant="outline-success" onClick={()=>props.handleAddPlayers(props.player)} >Add Player</Button>{' '}
             </div>
             <Alert show={show} variant="success popup">
                 <img src={img} alt="" />
